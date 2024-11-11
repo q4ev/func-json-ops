@@ -1,6 +1,9 @@
 <?php
 
-class func
+namespace q4ev\utils;
+
+
+trait JsonOpsTrait
 {
 	public static function jDecode ($json)
 	{
